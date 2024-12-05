@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support - Bukidnon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> <!-- Google Font -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth; /* Enable smooth scrolling */
+        }
+
+        /* Landing Page Styles */
+        .landing-page {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('img/cover.gif');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .landing-page h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        .landing-page p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #a865b5;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-transform: uppercase;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background-color: #8a4e99;
+        }
+
+        /* Navigation Bar */
+        nav {
+            text-align: center;
+            background-color: #6a4d85;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 40px 20px;
+            margin: 20px 0;
+            background-color: #f8f8f8;
+            color: #444;
+        }
+
+        .section h2 {
+            color: #a865b5;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .section ul li {
+            margin: 10px 0;
+        }
+
+        /* Multimedia Section Styles */
+        .multimedia-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .media-item {
+            text-align: center;
+        }
+
+        .media-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .media-video,
+        .media-audio {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            background-color: #6a4d85;
+            color: white;
+            padding: 10px 0;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .landing-page h1 {
+                font-size: 2.5rem;
+            }
+
+            .landing-page p {
+                font-size: 1.2rem;
+            }
+
+            .section {
+                padding: 30px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Landing Page -->
+<div class="landing-page">
+    <div>
+        <h1>Welcome to Mindful Space!</h1>
+        <p>Your Haven for Mental Wellness.</p>
+        <a href="#about-us" class="btn">Learn More</a>
+    </div>
+</div>
+
+<!-- Navigation Menu -->
+<nav>
+    <a href="#about-us">About Us</a>
+    <a href="#information-resources">Information & Resources</a>
+    <a href="#community-engagement">Community & Engagement</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- About Us Section -->
+<section id="about-us" class="section">
+    <h2>About Us</h2>
+    <p><strong>Vision & Mission:</strong></p>
+    <p>To create a world where mental well-being is prioritized, fostering a community of support, understanding, and healing.</p>
+    <p>Mindful Space is dedicated to promoting mental well-being by providing accessible support, resources, and a compassionate community for individuals to build resilience and find balance in their lives.</p>
+    <ul>
+        <p><strong>Goals and Values:</strong></p>
+        <li>✔ Promote mental health awareness</li>
+        <li>✔ Create a stigma-free community</li>
+        <li>✔ Offer practical tools for self-care and emotional well-being</li>
+        <li>✔ Build partnerships with local organizations</li>
+    </ul>
+    <p><strong>Contact Information:</strong></p>
+    <p>Email: <a href="mailto:MindfulSpace@gmail.com">MindfulSpace@gmail.com</a></p>
+    <p>Hotline: 0966-351-4518</p>
+    <p>Address: Malaybalay City, Bukidnon, Philippines</p>
+    <a href="https://www.facebook.com/share/17QtDG7Fsj/?mibextid=LQQJ4d" class="btn">Visit our Facebook</a>
+</section>
+
+<!-- Information & Resources Section -->
+<section id="information-resources" class="section">
+    <h2>Information & Resources</h2>
+    <p>Mental health is vital for overall well-being. Our resources include:</p>
+    <ul>
+        <li>✔ Guides for managing stress and anxiety</li>
+        <li>✔ Tips for building resilience and coping mechanisms</li>
+        <li>✔ Hotlines and services for immediate support</li>
+        <li>✔ Articles and workshops on mental wellness</li>
+        <p><strong>These are the coping mechanisms that peopl often find helpful during difficult times
+            like depressive episodes.
+            Here are some strategies that many find useful: :</strong></p>
+        <li>1. Seek Support: Talk to someone you trust-connection can reduce isolation.</li>
+        <li>2. Simplify Tasks: Break activitie into small, manageable steps.</li>
+        <li>3. Move Your Body: Light exercise or a walk can boost your mood.</li>
+        <li>4. Be Kidnd to Yourself: It's okay to not be okay-show your compassion.</li>
+        <li>5. Engage in Calming Activities: Listen to music, journal, or do something soothing.</li>
+        <li>6. Celebrate Small Wins: Acknowledge progress, no matter how small.</li>
+        <li>7. Consider Professional Help: Reach out to a therapist for tailored support. </li>
+        <li>8. Breathe and Be Present: Practice deep breathing or mindfulness to ease anxiety and refocus. </li>
+        <p><strong>Depression Statistics Everyone Should Knows:</strong></p>
+        <li>The World Health Organization (WHO) estimates that around 280 million people worldwide
+            have depression, which is approximately 3.8% of the global population.
+           <li> This includes:</li>
+           <li> 5% of adults and 5.7% adults over 60 years old </li>
+
+            Depression is more common in women in men, affecting about 50% more women than men. 
+            However, the actual number of people with depression may be higher because many people don't
+            seek professional help. The WHO estimates that more than 75% of people in low-income or
+            middle-income countries don't receive treatment for depression.
+            
+           <li> Depression can affect people of all ages and from all walks of life, but some factors can increase
+            the risk of developing it, including:</li>
+           <li> ○ Poverty </li>
+           <li> ○ Unemployment </li>
+           <li> ○ Physical illness </li>
+           <li> ○ Life events, such as the death of a loved one or a relationship break-up </li>
+           <li> ○ Problems caused by alcohol and drug use </li>
+
+            Given the alarming statistics and the fact that many individuals, particularly in low-income countries, don't receive the
+            support they need, it's clear that mental health awareness and accessibility are more important than ever. 
+            The creation of Mindful Minds is our response to this urgent need. By providing a safe, supportive space, 
+            we aim to raise awareness, reduce stigma, and offer resources to those affected by depression and mental health challenges.
+            Our mission is to ensure that no one feels alone in their struggles, empowering individuals to seek help, connect, and heal.
+            We are here to remind everyone that mental wellness is a journey, and it's okay to take that journey one step at a time.
+</section>
+
+
+<!-- Community & Engagement Section -->
+<section id="community-engagement" class="section">
+    <h2>Community & Engagement</h2>
+    
+   <p>Explore our curated collection of inspiring images, videos, and podcasts designed to uplift, educate, and
+         promote mental health and wellness. At Mindful Minds, we believe that mental health is a vital part of our overall well-being,
+         and our multimedia resources offer support, inspiration, and guidance for those on their mental wellness journey. 
+         Whether you're seeking calming visuals, motivational talks, or expert advice, 
+         our collection is here to guide and empower you every step of the way.
+
+         <p>Join our Community! Activities include:</p>
+    <ul>
+        <li>✔ Weekly mental wellness webinars</li>
+        <li>✔ Group discussions and therapy sessions</li>
+        <li>✔ Outdoor activities like hikes and retreats</li>
+        <li>✔ Partnerships with local mental health advocates</li>
+    </ul>
+    <p>Bukidnon offers various tranquil spaces where people can relax and reconnect with nature or themselves. These areas not
+         only provide a break from daily stress but also contribute to mental health by reducing anxiety,
+         improving mood, and fostering mindfulness. </p>
+
+        <li>Here are some notable locations:</li>
+
+    <!-- Multimedia Content -->
+    <div class="multimedia-container">
+        <!-- Images -->
+        <div class="media-item">
+            <img src="img/354571818_153044221115739_6154597484907347203_n.jpg" alt="Community Event 1" class="media-image">
+            <p>Lake Apo (Valencia City):
+                This crater lake is a serene and picturesque spot surrounded by lush vegetation. Activities such as boating, picnicking, 
+                or simply admiring the calm waters can help soothe the mind and reduce stress.</p>
+            <small> https://shorturl.at/yTDd6</small>
+        </div>
+        <div class="media-item">
+            <img src="img/423944441_3563468923983991_4267290966661401557_n.jpg" alt="Community Event 2" class="media-image">
+            <p>Impasugong Communal Ranch (Impasugong):
+                Known as the home of Bukidnon's cowboy culture, the wide-open fields, 
+                hills, and grazing animals provide a peaceful, stress-free environment that feels like stepping into another world.</p>
+            <small>https://shorturl.at/C4awi</small>
+        </div>
+        <div class="media-item">
+            <img src="img/462640520_1215486486232069_6115835545020622299_n.jpg" alt="Wellness Workshop" class="media-image">
+            <p>Dahilayan Gardens and Resort (Manolo Fortich): 
+                The serene environment, cool climate, and lush greenery create an ideal setting for relaxation. Spending time here can 
+                help lower stress levels and improve overall well-being, as nature exposure is linked to reduced cortisol levels
+                and enhanced mental clarity.</p>
+            <small>https://shorturl.at/qNF3x</small>
+        </div>
+        <div class="media-item">
+            <img src="img/467759937_1086526440140912_6658188990492287243_n.jpg" alt="Outdoor Retreat" class="media-image">
+            <p>Mt. Kitanglad Range Natural Park: 
+                Trekking or simply being surrounded by the pristine beauty of this UNESCO-recognized park promotes physical activity
+                and a sense of accomplishment, both of which are known to combat depression and boost mental health.</p>
+            <small>https://shorturl.at/M1pVZ</small>
+        </div>
+        
+        <!-- Video -->
+        <div class="media-item">
+            <video controls class="media-video">
+                <source src="img/469292977_9508942109135273_7167235476916518756_n.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Watch: Mental Health Awareness Video</p>
+        </div>
+        
+        <!-- Podcast -->
+        <div class="media-item">
+            <audio controls class="media-audio">
+                <source src="c:\Users\dassheil\Downloads\469036405_8819081858175707_939895698233397744_n.mp4" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+            <p>Listen: Mental Health Awareness Podcast</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Support you can rely on:</p>
+    <ul>
+        <li>Email: <a href="mailto:MindfulSpace@gmail.com">MindfulSpace@gmail.com</a></li>
+        <li>Hotline: 0966-s351-4518</li>
+        <li>Address: Malaybalay City, Bukidnon, Philippines</li>
+    </ul>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Mindful Space</p>
+    <p>Visit our <a href="#about-us">About Us</a> section or follow us on <a href="https://www.facebook.com/share/17QtDG7Fsj/?mibextid=LQQJ4d">Facebook</a>.</p>
+</footer>
+
+</body>
+</html>
